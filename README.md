@@ -3,9 +3,11 @@
 - <h3>Add at least 3 Project features</h3>
  
 - <h2>Answer</h2>
-  <h3> <h2>1</h2> : First features is that it is a course registration website</h3>
-  <h3> <h2>2</h2> : Seconds Features is that you can take 20 hours credit from here not more than that</h3>
-  <h3> <h2>3</h2> : Third features is that you can basically purchase one course at a time from here</h3>
+   <ol>
+   <li> First features is that it is a course registration website</li>
+  <li>Seconds Features is that you can take 20 hours credit from here not more than that</li>
+  <li>Third features is that you can basically purchase one course at a time from here</li>
+   </ol>
  
 - <h3>Discuss how you managed the state in your assignment project.
 </h3>
