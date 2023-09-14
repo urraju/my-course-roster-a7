@@ -9,7 +9,7 @@ const Cards = ({data , buttonHandler}) => {
     return (
 
         <div>
-            <div className='text-left  h- bg-white space-y-3 p-3 rounded-lg'>
+            <div className='text-left shadow-sm h- bg-white space-y-3 p-3 rounded-lg'>
                 <img src={img} alt="" />
                 <h1 className='text-lg font-extrabold'>{title}</h1>
                 <p className='text-gray-500 text-sm'>{description}</p>

@@ -44,7 +44,7 @@ const Home = () => {
         <>
             <Header />
               
-             <div className='flex gap-10 justify-between   mx-auto'>
+             <div className='flex flex-col-reverse md:flex-row lg:flex-row md:gap-10 lg:gap-10 justify-center  mx-auto'>
 
             <Fetch buttonHandler={buttonHandler} />
             <Card buttonWork={buttonWork} credit={credit} remaning={remaning} totalPrice={totalPrice} />
