@@ -3,6 +3,8 @@ import React, { useState } from 'react'
 import Fetch from '../DataFetch/Fetch'
 import Card from '../Card/Card'
 import Header from '../Header/Header'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Home = () => {
     const budget = 20;
@@ -20,7 +22,7 @@ const Home = () => {
         const istrue = buttonWork.find((item) => item.id === all.id)
 
          if(istrue){
-            alert('You Have Already Selected')
+            toast('You Have Already Selected')
          }else{
              
             buttonWork.forEach(item => {
@@ -28,13 +30,13 @@ const Home = () => {
                 totalPrice += item.price;
             })
              
-            setCredit(credit)
+             
             setTotalPrice(totalPrice)
             const remaningHour = budget - credit;
             if(credit > budget){
-                alert('You Have Not Enough Money')
+                toast('You Have Not Enough Money')
             }else{
-
+                setCredit(credit)
                 setRemaning(remaningHour)
                 setButtonWork([...buttonWork , all])
             }
@@ -43,7 +45,7 @@ const Home = () => {
     return (
         <>
             <Header />
-              
+             <ToastContainer /> 
              <div className='flex flex-col-reverse md:flex-row lg:flex-row md:gap-10 lg:gap-10 justify-center  mx-auto'>
 
             <Fetch buttonHandler={buttonHandler} />
