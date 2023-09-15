@@ -1,5 +1,4 @@
 
-
 import React from 'react'
 
 const Card = ({buttonWork, credit, remaning, totalPrice}) => {
@@ -18,7 +17,7 @@ const Card = ({buttonWork, credit, remaning, totalPrice}) => {
                 <p className='text-lg font-bold'>Total Price : {totalPrice} USD</p>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Card 
+export default Card ;

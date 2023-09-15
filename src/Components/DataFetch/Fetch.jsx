@@ -5,7 +5,7 @@ import Cards from '../Card/Cards'
 
 const Fetch = ({buttonHandler}) => {
      const [dataStore , setDataStore] = useState([])
-    useEffect(data => {
+    useEffect( () => {
 
         fetch('data.json')
         .then(res => res.json())
@@ -18,7 +18,7 @@ const Fetch = ({buttonHandler}) => {
                 dataStore.map(data => <Cards key={data.id} data={data} buttonHandler={buttonHandler}  />)
             }
         </div>
-    )
-}
+    );
+};
 
 export default Fetch

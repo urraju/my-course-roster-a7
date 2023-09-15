@@ -8,10 +8,10 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Home = () => {
     const budget = 20;
-    const [buttonWork, setButtonWork] = useState([])
-    const [credit, setCredit] = useState(0)
-    const [remaning, setRemaning] = useState(0)
-    const [totalPrice, setTotalPrice] = useState(0)
+    const [buttonWork, setButtonWork] = useState([]);
+    const [credit, setCredit] = useState(0);
+    const [remaning, setRemaning] = useState(0);
+    const [totalPrice, setTotalPrice] = useState(0);
 
 
     const buttonHandler = (all) => {
@@ -28,20 +28,19 @@ const Home = () => {
             buttonWork.forEach(item => {
                 credit += item.credit;
                 totalPrice += item.price;
-            })
+            });
              
-             
-            setTotalPrice(totalPrice)
             const remaningHour = budget - credit;
             if(credit > budget){
                 toast('You Have Not Enough Money')
             }else{
+                setTotalPrice(totalPrice)
                 setCredit(credit)
                 setRemaning(remaningHour)
                 setButtonWork([...buttonWork , all])
-            }
-         }
-    }
+            };
+         };
+    };
     return (
         <>
             <Header />
@@ -54,7 +53,7 @@ const Home = () => {
             </div>
              
         </>
-    )
-}
+    );
+};
 
-export default Home
+export default Home;
