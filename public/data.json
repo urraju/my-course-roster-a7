@@ -1,11 +1,10 @@
-
  
 [
     {
         "id" : 1,
         "img": "https://i.ibb.co/0Y4T394/Rectangle-2-2.png",
         "title": "Introduction C Programming",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "This comprehensive course will introduce you to the fundamental concepts of C programming, from variables and data types to control structures . Get ready to embark on your programming journey with the C language.",
         "price":  15000,
         "credit": 1
     },
@@ -13,7 +12,7 @@
         "id" : 2,
         "img": "https://i.ibb.co/j3gjW4T/Rectangle-2-3.png",
         "title": "Introduction to Algorithms",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "Unlock the world of algorithms with this course! Dive into the essential algorithms and data structures used in computer science. Learn how to design, analyze, and implement efficient algorithms to solve real-world problems.",
         "price":  25000,
         "credit": 2
     },
@@ -21,7 +20,7 @@
       "id" : 3,
       "img": "https://i.ibb.co/PhJMxj7/Rectangle-2-4.png",
       "title": "Introduction to C++ for DSA",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description":"Are you interested in competitive programming and data structures? This course is tailored for you. Learn C++ programming language while mastering data  and algorithms for coding competitions and software development.",
       "price":  10000,
       "credit": 10
     },
@@ -29,7 +28,7 @@
       "id" : 4,
       "img": "https://i.ibb.co/LCcwPNB/Rectangle-3.png",
       "title": "Basic Data Structures",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description":"Explore the fundamental data structures that are the building blocks of software development. From arrays to linked lists and trees, this course will equip you efficiently manage and manipulate data.",
       "price":  35000,
       "credit": 5
     },
@@ -37,7 +36,7 @@
       "id" : 5,
       "img": "https://i.ibb.co/gWyvvFG/Rectangle-2.png",
       "title": "Introduction to OOP Python",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": "Discover the power of Object-Oriented Programming (OOP) with Python. Learn to create well-structured, reusable code and delve into advanced Python features for developing robust applications.",
       "price":  19000,
       "credit": 5
     },
@@ -45,7 +44,7 @@
       "id" : 6,
       "img": "https://i.ibb.co/PWJMNLk/Rectangle-2-5.png",
       "title": "Software Engineering",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description":"Master the art of software engineering.  development, and testing, this course covers the entire software development lifecycle. Learn best practices for building reliable and scalable software systems.",
       "price":  23000,
       "credit": 2
     },
@@ -53,7 +52,7 @@
       "id" : 7,
       "img": "https://i.ibb.co/7tFF15D/Rectangle-3-1.png",
       "title": "AWS, Cloud Computing",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description":"Enter the world of cloud computing with AWS (Amazon Web Services). Learn to deploy, manage, and scale cloud-based applications and services. Gain the skills needed to navigate the cloud computing landscape.",
       "price":  35000,
       "credit": 5
     },
@@ -61,7 +60,7 @@
       "id" : 8,
       "img": "https://i.ibb.co/qB5mK3S/Rectangle-2-1.png",
       "title": "Database (MySQL)",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": "Master the art of database management with MySQL. From designing databases MySQL to writing complex queries, this course will equip you with the skills to efficiently store and retrieve with the skills data",
       "price":  19000,
       "credit": 5
     },
@@ -69,7 +68,7 @@
       "id" : 9,
       "img": "https://i.ibb.co/VWPh4Zr/Rectangle-2-6.png",
       "title": "Problem-Solving Part",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description":  "Enhance your problem-solving abilities with this course. Explore advanced data structures and algorithms commonly used in software development and competitive programming. Sharpen your coding and analytical skills.",
       "price":  23000,
       "credit": 2
     }
