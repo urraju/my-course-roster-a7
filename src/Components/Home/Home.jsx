@@ -32,7 +32,7 @@ const Home = () => {
              
             const remaningHour = budget - credit;
             if(credit > budget){
-                toast('You Have Not Enough Money')
+                toast('You Have Not Enough Hour')
             }else{
                 setTotalPrice(totalPrice)
                 setCredit(credit)
